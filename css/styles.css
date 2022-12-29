@@ -1,0 +1,129 @@
+body {
+    background-color: #f8faff;
+    color: #2d3958;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+/*Buttons*/
+
+.primary-btn {
+    background-color: #5a27e7;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 0;
+    padding: 0.75rem 1rem;
+    /*margin: 0;*/
+}
+.secondary-btn {
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 0;
+    padding: 0.75rem 1rem;
+    margin: 3%;
+    /*margin: 0;*/
+}
+.secondary-btn:hover {
+    /*background-color: #5a27e7;*/
+}
+
+
+/* Header Section */
+.navigation-item {
+    font-size: 1rem;
+    margin: 0.5rem;
+    color: #2d3958;
+}
+.toggler-wrapper {
+    margin: 1rem;
+}
+.header-section {
+    margin: 1rem 0 3rem;
+}
+.header-main {
+    text-align: center;
+}
+.header-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 5.5rem auto 1rem;
+    width: 50%;
+}
+.header-subtitle {
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #7b88a8;
+    letter-spacing: -1.5px;
+    word-spacing: -4px;
+    margin: 2rem auto;
+    width: 50%;
+}
+.portfolio-btn {
+    margin-top: 1.5rem;
+    padding: 1.5rem 2rem;
+}
+
+/* Content Section */
+.features-section {
+    margin-top: 10%;
+}
+.app-banner {
+    width: 50%;
+    float: left;
+}
+.features-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 0 auto 1rem;
+    padding-top: 4rem;
+    width: 50%;
+}
+
+.features-subtitle {
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #7b88a8;
+    margin: 2rem auto;
+    width: 50%;
+}
+
+.project-section {
+    clear: left;
+    text-align: center;
+}
+
+.card-container {
+    margin: 2rem auto;
+}
+
+/*Footer*/
+.footer-section {
+    padding: 5%;
+}
+.footer-wrapper {
+    text-align: right;
+}
+.footer-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    /*color: #7b88a8;*/
+}
+.social-icons {
+}
+.copyright {
+    word-spacing: -2px;
+}
+
+
+@media screen and (max-width:720px) {
+    .view-github {
+        display: none;
+    }
+}
