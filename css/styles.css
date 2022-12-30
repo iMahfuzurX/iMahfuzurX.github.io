@@ -119,7 +119,7 @@ body {
 }
 
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:960px) {
     .view-github {
         display: none;
     }
