@@ -55,8 +55,8 @@ body {
     font-weight: 400;
     font-size: 1.2rem;
     color: #7b88a8;
-    letter-spacing: -1.5px;
-    word-spacing: -4px;
+    letter-spacing: -0.5px;
+    word-spacing: -1px;
     margin: 2rem auto;
     width: 50%;
 }
